@@ -1,5 +1,5 @@
 jobs:
-    on : push
+  on: [push]
   build:
     runs-on: ubuntu-latest
     steps:
