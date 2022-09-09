@@ -1,5 +1,6 @@
+name: poweshell-test
+on: [push]
 jobs:
-  on: [push]
   build:
     runs-on: ubuntu-latest
     steps:
